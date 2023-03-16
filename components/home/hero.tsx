@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = () => {
       <div className={tvs.box({ class: "relative w-full z-10" })}>
         <Logo height={120} />
         <h1 className="font-extrabold mt-4 text-center text-4xl md:text-5xl text-black dark:text-white">
-          Tailwind Variants
+          Payment Aggrigator
         </h1>
         <p className="mt-2 text-center font-medium text-lg">
           The power of Tailwind combined with a first-class variant API.

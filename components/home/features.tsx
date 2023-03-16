@@ -11,7 +11,7 @@ export const features = [
   {
     name: "Fast",
     description:
-      "Tailwind Variants is zero-runtime and tree-shakeable. It only takes care of the classNames generation.",
+      "Payment Aggrigator is zero-runtime and tree-shakeable. It only takes care of the classNames generation.",
     icon: <FlashIcon className="stroke-black dark:stroke-white" />,
   },
   {
@@ -23,13 +23,13 @@ export const features = [
   {
     name: "Safe",
     description:
-      "Forget about TailwindCSS style conflicts. Tailwind Variants efficiently merges conflicting styles.",
+      "Forget about TailwindCSS style conflicts. Payment Aggrigator efficiently merges conflicting styles.",
     icon: <MagicIcon className="stroke-black dark:stroke-white" />,
   },
   {
     name: "Framework agnostic",
     description:
-      "Tailwind Variants is a utility library that works with any framework. It's not tied to React.",
+      "Payment Aggrigator is a utility library that works with any framework. It's not tied to React.",
     icon: <ServerIcon className="stroke-black dark:stroke-white" />,
   },
 ];

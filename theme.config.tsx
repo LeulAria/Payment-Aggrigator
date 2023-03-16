@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
     <div className="flex items-center">
       <Logo height={30} />
       <b className="ml-1.5 font-semibold hidden sm:block text-sm sm:text-base">
-        Tailwind Variants
+        Payment Aggrigator
       </b>
       <span className={tvs.badge({ class: "hidden sm:flex" })}>
         v{tvVersion}
@@ -77,7 +77,7 @@ const config: DocsThemeConfig = {
     const router = useRouter();
     const { frontMatter } = useConfig();
 
-    const defaultTitle = frontMatter.overrideTitle || "Tailwind Variants";
+    const defaultTitle = frontMatter.overrideTitle || "Payment Aggrigator";
 
     return {
       description: frontMatter.description,
@@ -112,7 +112,7 @@ const config: DocsThemeConfig = {
           </a>
         </div>
         <p className="mt-6 text-xs">
-          MIT {new Date().getFullYear()} The Tailwind Variants Project.
+          MIT {new Date().getFullYear()} The Payment Aggrigator Project.
         </p>
       </div>
     ),

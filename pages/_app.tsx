@@ -4,12 +4,17 @@ import { SSRProvider } from "@react-aria/ssr";
 import { Analytics } from "@vercel/analytics/react";
 import { isProd } from "@utils";
 import "../styles.css";
+import ProgressBar from "@components/shared/ProgressBar";
+import Announcement from "@components/header/Announcement";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <SSRProvider>
+        {/* Announcement Bar */}
+        {/* <Announcement /> */}
         <Component {...pageProps} />
+        <ProgressBar />
       </SSRProvider>
       {isProd && <Analytics />}
     </>

@@ -5,10 +5,28 @@
     "display": "hidden"
   },
   "docs": {
-    "title": "Docs",
+    "title": "Developers",
     "type": "page",
     "theme": {
       "footer": false
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "type": "page"
+  },
+  "resources": {
+    "title": "Resources",
+    "type": "menu",
+    "items": {
+      "blogs": {
+        "title": "Blog",
+        "type": "page"
+      },
+      "aboutus": {
+        "title": "AboutUs",
+        "type": "page"
+      }
     }
   }
 }

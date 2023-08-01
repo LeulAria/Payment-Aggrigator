@@ -12,7 +12,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <SSRProvider>
         {/* Announcement Bar */}
-        <Announcement />
+        {/* <Announcement /> */}
         <Component {...pageProps} />
         <ProgressBar />
       </SSRProvider>

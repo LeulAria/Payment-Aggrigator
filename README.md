@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Visit [https://tailwind-variants.org](https://tailwind-variants.org) to get started with **AdwaPay**.
+Visit [https://tailwind-variants.org](https://tailwind-variants.org) to get started with **StrategyTaps**.
 
 ## License
 

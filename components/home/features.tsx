@@ -11,7 +11,7 @@ export const features = [
   {
     name: "Fast",
     description:
-      "AdwaPay is zero-runtime and tree-shakeable. It only takes care of the classNames generation.",
+      "StrategyTaps is zero-runtime and tree-shakeable. It only takes care of the classNames generation.",
     icon: <FlashIcon className="stroke-black dark:stroke-white" />,
   },
   {
@@ -23,13 +23,13 @@ export const features = [
   {
     name: "Safe",
     description:
-      "Forget about TailwindCSS style conflicts. AdwaPay efficiently merges conflicting styles.",
+      "Forget about TailwindCSS style conflicts. StrategyTaps efficiently merges conflicting styles.",
     icon: <MagicIcon className="stroke-black dark:stroke-white" />,
   },
   {
     name: "Framework agnostic",
     description:
-      "AdwaPay is a utility library that works with any framework. It's not tied to React.",
+      "StrategyTaps is a utility library that works with any framework. It's not tied to React.",
     icon: <ServerIcon className="stroke-black dark:stroke-white" />,
   },
 ];
